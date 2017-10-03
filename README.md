@@ -1,0 +1,2 @@
+# shadowsocks-heroku
+remove all
