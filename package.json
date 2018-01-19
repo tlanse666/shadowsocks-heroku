@@ -1,20 +1,13 @@
 {
   "name": "shadowsocks-heroku",
   "version": "0.9.10",
-  "license": "Apache-2.0",
   "dependencies": {
+    "bufferutil": "^3.0.3",
+    "https-proxy-agent": "^2.1.1",
     "minimist": "^1.2.0",
-    "https-proxy-agent": "^1.0.0",
-    "ws": "^1.0.1"
-  },
-  "engines": {
-    "node": "4.x"
+    "ws": "^3.3.3"
   },
   "scripts": {
     "start": "node server.js -b 0.0.0.0"
-  }, 
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/liujunhongz/shadowsocks-heroku.git"
   }
 }
